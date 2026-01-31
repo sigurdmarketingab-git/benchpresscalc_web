@@ -1,0 +1,62 @@
+/* Grundreset */
+* {
+  box-sizing: border-box;
+}
+
+/* Sida */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* Innehåll */
+main {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rubrik */
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Labels */
+label {
+  font-size: 0.9rem;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+/* Knapp */
+button {
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Resultat */
+#result {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+}

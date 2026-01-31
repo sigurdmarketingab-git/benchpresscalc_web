@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bänkpresskalkylator</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Bänkpresskalkylator</h1>
+
+    <form onsubmit="calculateOneRepMax(event)">
+      <label for="weight">Vikt (kg)</label>
+      <input type="number" id="weight" min="1" required>
+
+      <label for="reps">Repetitioner</label>
+      <input type="number" id="reps" min="1" required>
+
+      <button type="submit">Beräkna</button>
+    </form>
+
+    <p id="result"></p>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
