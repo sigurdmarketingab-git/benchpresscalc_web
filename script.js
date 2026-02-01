@@ -6,6 +6,7 @@ function calculateOneRepMax(event) {
 
   const oneRepMax = weight * (1 + reps / 30);
 
-  document.getElementById("result").textContent =
-    `Uppskattad 1RM: ${oneRepMax.toFixed(1)} kg`;
+  const result = document.getElementById("result");
+  result.textContent = `Uppskattad 1RM: ${oneRepMax.toFixed(1)} kg`;
+  result.style.display = "block";
 }
