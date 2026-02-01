@@ -72,6 +72,7 @@ input:focus {
 /* Själva knappen */
 button {
 	background-color: #111444;
+	font-size: 1rem;
 	color: #f5f5f5;
 	font-weight: 500;
 	margin-top: 1rem;
